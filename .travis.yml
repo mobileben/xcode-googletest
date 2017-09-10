@@ -1,1 +1,4 @@
 os: osx
+osx_image: xcode8.3
+xcode_project: GoogleTestExample.xcodeproj
+xcode_scheme: demo_ios
