@@ -6,4 +6,4 @@ xcode_project: GoogleTestExample.xcodeproj
 xcode_scheme: demo-ios
 
 script:
-    - xcodebuild clean build -sdk iphonesimulator -project GoogleTestExample.xcodeproj -scheme demo-ios CODE_SIGNING_REQUIRED=NO
+    - xcodebuild clean build test -sdk iphonesimulator -project GoogleTestExample.xcodeproj -scheme demo-ios CODE_SIGNING_REQUIRED=NO
