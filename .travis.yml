@@ -4,3 +4,6 @@ osx_image: xcode8.3
 
 xcode_project: GoogleTestExample.xcodeproj
 xcode_scheme: demo-ios
+
+script:
+    - xcodebuild clean build -sdk iphonesimulator -project GoogleTestExample.xcodeproj -scheme demo-ios CODE_SIGNING_REQUIRED=NO
