@@ -10,5 +10,5 @@ TEST(Counter, Increment) {
     Counter counter;
     EXPECT_EQ(1, counter.Increment());
     EXPECT_EQ(2, counter.Increment());
-    EXPECT_EQ(3, counter.Increment());
+    EXPECT_EQ(4, counter.Increment());
 }
